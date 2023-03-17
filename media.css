@@ -1,0 +1,151 @@
+/* Tablet */
+@media screen and (max-width: 768px) and (min-width: 480px)  {
+  .header-info-pic {
+    flex-wrap: wrap;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .mobile-menu {
+    font-size: 20px !important;
+  }
+  .info {
+    height: 150px !important;
+  }
+  .product-info {
+    height: 1000px !important;
+    padding: 120px 20px !important;
+  }
+  .img-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .header-img {
+    height: 300px;
+  }
+  .questions-section {
+    padding: 0 20px !important;
+  }
+  .questions-info-qa {
+    flex-wrap: wrap;
+  }
+  .location-feedback {
+    height: 550px !important;
+    flex-direction: column;
+  }
+  footer {
+    height: 250px !important;
+  }
+  .footer-sub {
+    flex-direction: column;
+  }
+  .copyright {
+    margin-bottom: 20px;
+  }
+}
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .header-info-pic {
+    flex-wrap: wrap;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .mobile-menu {
+    font-size: 20px !important;
+  }
+  .info {
+    height: 150px !important;
+  }
+  .product-info {
+    height: 1000px !important;
+    padding: 120px 20px !important;
+  }
+  .img-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .header-img {
+    height: 300px;
+  }
+  .product-info-img {
+    height:
+     300px !important;
+  }
+  .third-box,.second-box {
+    display: none !important;
+  }
+  .questions-section {
+    padding: 0 20px !important;
+  }
+  .questions-info-qa {
+    flex-wrap: wrap;
+  }
+  .location-feedback {
+    height: 550px !important;
+    flex-direction: column;
+  }
+  footer {
+    height: 400px !important;
+  }
+  .footer-sub {
+    flex-direction: column;
+  }
+  .copyright {
+    margin-bottom: 20px;
+  }
+  .product-info {
+    flex-wrap: wrap;
+  }
+}
+/* Desktop */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .info > h5 {
+    font-size: 40px;
+  }
+  .header-img {
+    height: 350px;
+  }
+  .product-info {
+    height: 850px !important;
+  }
+}
+/* Tablet Desktop */
+@media screen and (max-width: 992px) and (min-width: 480px) {
+  .img-container-product-info {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .img-container-product-info2 {
+    width: 100%;
+    justify-content: center;
+  }
+  .product-info {
+    flex-wrap: wrap;
+  }
+  .arrow-right,.arrow-left {
+    display: none !important;
+  }
+  .third-box {
+    display: none !important; 
+  }
+  .arrow-left,.arrow-right {
+    display: none;
+  }
+  .questions-info {
+    margin-bottom: 25px;
+  }
+}
+/* Huge Desktop */
+@media screen and (min-width: 993px) {
+  .info > h5 {
+    font-size: 64px;
+  }
+  .header-img {
+    height: 400px;
+  }
+  .questions-info {
+    flex: 0 0 50%;
+  }
+}
